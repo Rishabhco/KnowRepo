@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./github.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>KnowRepo</title>
+</head>
+
+<body>
+    <div id="heading">
+        <div id="h1">Get Information about any REPO</div>
+        <div id="caption">Just click on the repository and get information about it</div>
+    </div>
+    <div id="content">
+        <div id="left">
+            <h1 id="repohead">Repos</h1>
+            <div id="repoNm">
+                <div id="one"  class="repos">cookAi-cloud-function</div>
+                <div id="two"  class="repos">DCompute</div>
+                <div id="three"  class="repos">stc-website</div>
+                <div id="four"  class="repos">Flo-In</div>
+                <div id="five"  class="repos">STC_APP_CONTENT</div>
+                <div id="six"  class="repos">HackMate_Frontend</div>
+                <div id="seven"  class="repos">STC_APP</div>
+                <div id="eight"  class="repos">Hackmate_App</div>
+                <div id="nine"  class="repos">CryptoBid</div>
+                <div id="ten"  class="repos">STCVIT</div>
+                <div id="ele"  class="repos">ExploreWithSTC_BackendSession</div>
+                <div id="twe"  class="repos">Fabulamur</div>
+                <div id="thir"  class="repos">LivStory</div>
+                <div id="fourt"  class="repos">ExploreWithSTC_FrontendSession</div>
+                <div id="fivt"  class="repos">ExploreWithSTC_FirebaseSession</div>
+                <div id="sixt"  class="repos">Lyffcsaver</div>
+                <div id="sevent"  class="repos">STC_APP_PRIVACY_POLICY</div>
+                <div id="eighteen"  class="repos">raize</div>
+                <div id="nint"  class="repos">Bit-To-Ink</div>
+                <div id="twen"  class="repos">LocalChat</div>
+                <div id="two"  class="repos">CookAI</div>
+                <div id="twtw"  class="repos">EasyRecruit-Website</div>
+                <div id="twthir"  class="repos">SMRITI-APP</div>
+                <div id="twfourt"  class="repos">AmazonFakeReviewDetection-APP</div>
+                <div id="twfivt"  class="repos">Rozgaar-App</div>
+                <div id="twsixt"  class="repos">CoviFight</div>
+                <div id="twsevent"  class="repos">EasyRecruit-Backend</div>
+                <div id="tweighteen"  class="repos">Educator.ai</div>
+                <div id="twnint"  class="repos">FFCSonTheGo</div>
+            </div>
+        </div>
+        <div id="right">
+            <h1 id="infhead">Info about Repository </h1>
+            <div id="info">
+                <div class="infot">
+                    Name of Repository : <span class="getinfo" id="name"></span> 
+                </div>
+                <div class="infot">
+                    URL of Repository : <a href="" id="url"></a> 
+                </div>
+                <div class="infot">
+                    Description of Repository: <span class="getinfo" id="desc"></span> 
+                </div>
+                <div class="infot">
+                    Date of Repository Creation: <span class="getinfo" id="cret"></span> 
+                </div>
+                <div class="infot">
+                    ID of Repository: <span class="getinfo" id="idr"></span> 
+                </div>
+                <div class="infot">
+                    Is Fork Allowed ?: <span class="getinfo" id="isfork"></span> 
+                </div>
+                <div class="infot">
+                    No. of Forks: <span class="getinfo" id="nofork"></span> 
+                </div>
+                <div class="infot">
+                    Is the Repository in Organization: <span class="getinfo" id="isorg"></span> 
+                </div>
+                <div class="infot">
+                    Has Projects Enabled ??: <span class="getinfo" id="pje"></span> 
+                </div>
+                <div class="infot">
+                    Does Issues are Enabled ?? : <span class="getinfo" id="isen"></span> 
+                </div>
+                <div class="infot">
+                    Is Repo Private ?? : <span class="getinfo" id="ispr"></span> 
+                </div>
+                <div class="infot">
+                    Last Pushed At : <span class="getinfo" id="push"></span> 
+                </div>
+                <div class="infot">
+                    Name of Repo with Owner : <span class="getinfo" id="nown"></span> 
+                </div>
+                <div class="infot">
+                   Last Updated At : <span class="getinfo" id="updt"></span> 
+                </div>
+                <div class="infot">
+                   No. of Languages Used : <span class="getinfo" id="nolang"></span> 
+                </div>
+                <div class="infot">
+                   Languages Used : <span class="getinfo" id="lang"></span> 
+                </div>
+                <div class="infot">
+                   No. of Releases : <span class="getinfo" id="norelease"></span> 
+                </div>
+                <div class="infot">
+                   No. of Commit Comments : <span class="getinfo" id="nocommitComment"></span> 
+                </div>
+                <div class="infot">
+                   Primary Language : <span class="getinfo" id="prlang"></span> 
+                </div>
+                <div class="infot">
+                   No of Star Users in the Repo : <span class="getinfo" id="staruser"></span> 
+                </div>
+                <div class="infot" id="collcount">
+                   No of Collaborators in the Repo : <span class="getinfo" id="collabcount"></span> 
+                </div>
+                <div class="infot" id="coll">
+                   Collaborators Information : <span class="getinfo" id="collab"></span> 
+                </div>
+                <div class="infot" id="eerr">
+                   Error Messages : <span class="getinfo" id="errmsg"></span> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
